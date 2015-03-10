@@ -1,0 +1,76 @@
+Definition - What does Development Environment mean?
+
+A development environment is a collection of procedures and tools for developing, testing and debugging an application or program. 
+
+The development environment normally has three server tiers, called development, staging and production. All three tiers together are usually referred to as the DSP. 
+
+Development Server: Here is where the developer tests code and checks whether the application runs successfully with that code. Once the application has been tested and the developer feels that the code is working fine, the application then moves to the staging server.
+Staging Server:This environment is made to look exactly like the production server environment. The application is tested on the staging server to check for reliability and to make sure it does not fail on the actual production server. This type of testing on the staging server is the final step before the application could be deployed on a production server. The application needs to be approved in order to deploy it on the production server.
+Production Server: Once the approval is done, the application then becomes a part of this server.
+
+The most popular IDEs per language
+
+C# - Visual Studio, SharpDevelop
+
+Java - Eclipse, NetBeans, IDEA
+
+Objective-C - Xcode
+
+Delphi - RAD Studio
+
+Object Pascal - Delphi, Lazarus
+
+C, C++ - Visual Studio, Vim
+
+PL/SQL - RapidSQL, Oracle SQLDeveloper
+
+PHP - Eclipse, NetBeans, Nusphere PHPed
+
+Actionscript (AS2, AS3) - FlashDevelop
+
+Flex - Flash Builder 4
+
+Python - Eclipse, IDLE
+
+Perl - Padre
+
+Common Lisp - Lispworks, Emacs
+
+Ruby - TextMate
+
+Haskell - Vim
+
+Fortran - Vim
+
+
+
+
+
+
+Visual Basic - Visual Studio
+If you are looking for the definitive IDE for Windows application development, look no further than to Microsoft's own developer toolset. Visual Studio products cover languages like C++, C# and VB.NET. In addition, you are also able to develop for the Windows x86, Windows RT, and Windows Phone. The latest version of Visual Studio is also designed to be optimized for touch, just in case you happen to be writing code on a Microsoft Surface. Visual Studio Professional will cost you $499. Sometimes people want to try the product without investing thousands of dollars first, so Microsoft has the Express editions for all of their products. This makes it perfect for casual users that want to hack out some code as a hobby or programmers who need a free solution to code in C#. Be warned though, if the application developed by someone using the express versions of Visual Studio takes off and starts making money it would not be surprising to see big brother step in and start asking questions.
+
+Advantages - Intellisense, Automatic code formatting, Extensibility, Compiles Code.
+Cons - CPU Hog, Overwhelming GUI.
+
+Eclipse
+This is the best alternative if you are not a big fan of Microsoft’s Visual Studio. The interface is a lot cleaner and concise than Visual Studio and the languages that are possible to use extend past the .Net Framework. Besides being the number on way to develop Android applications via the Android SDK, it is fully extensible to use languages such as Ruby, C, C++ and many many more.
+
+Advantages - Language Extensibility, Free, Compiles Code.
+Cons - Steep Learning Curve. 
+
+
+Netbeans
+If you are more of a Java developer, Oracle's got your back with their Netbeans IDE. Of course, despite the fact that excellent Java support is its claim to fame going as far back as the Sun Microsystems days, other languages like C/C++, Ruby, HTML5, PHP and more are supported as well. Netbeans is extremely extensible via its plugin-centric design, allowing you to add additional language syntax support and libraries, among other things. Netbeans is free under the Common Development and Distribution License (CDDL) v1.0 and GNU General Public License (GPL) v2.
+
+Advantages - Extensible, Compiles Code, Free.
+Cons - Bloated.
+
+
+ Code::Blocks
+
+Unlike the other products seen thus far, Code::Blocks, which is built on the wxWidgets framework, is exceptionally lightweight in size, yet still quite functional and feature-rich IDE. You can load up a number of under-the-hood compiler engines, ranging from GCC and LLVM, to Digital Mars and Open Watcom. Code::Blocks also takes advantage of multi-core compiling, allowing you to get the job done faster. Code::Blocks is distributed under the GPL v3.0 license which means it can be used freely by anyone.
+
+Aptana Studio 3
+
+If web and scripting languages are more of your style, Aptana is well suited for the task. PHP, Ruby on Rails, and Python are supported as well as the likes of Adobe AIR. Even the studio itself is available as a plugin for Eclipse if you prefer the way Aptana handles your work and want to combine it with a more comprehensive IDE. Aptana Studio 3 is free and available solely under the GNU General Public License.
